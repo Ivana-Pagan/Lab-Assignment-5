@@ -1,0 +1,17 @@
+
+.background    { background: rgb(68, 9, 60);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.water          { background: rgb(0,128,128); }
+.wall          { background: black;   }
+.spike         { background: rgb(148, 152, 161);  } /*This is my floater color*/
+.moon          { background: rgb(239, 211, 68); } /*This is not my floater this is just a small design */
+.star          { background: rgb( 0, 51, 102); }
+
+.game {
+
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
